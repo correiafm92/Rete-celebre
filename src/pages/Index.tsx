@@ -50,9 +50,8 @@ const Index = () => {
               items={[
                 "Caixa de madeira personalizada com acabamento premium",
                 "Garrafa de vinho cuidadosamente selecionada",
-                "Caderno executivo em couro legítimo",
-                "Caneta metálica de alta qualidade",
-                "Embalagem com detalhes exclusivos"
+                "Caderno Office",
+                "Caneta metálica de alta qualidade"
               ]}
               delay={100}
             />
@@ -63,25 +62,12 @@ const Index = () => {
               image="https://i.postimg.cc/DzGBPscB/A-wooden-box-with-a-ribbon-champagne-and-a-notebook-inside-sits-on-an-office-desk-illuminated-by.jpg"
               items={[
                 "Caixa de madeira personalizada com acabamento superior",
-                "Champagne premium de marca reconhecida",
-                "Caderno executivo em couro com detalhes metálicos",
-                "Caneta executiva premium",
-                "Cartão personalizado com sua mensagem corporativa"
+                "Champagne",
+                "Caderno Office",
+                "Caneta Office"
               ]}
               delay={300}
             />
-          </div>
-          
-          <div className="text-center mt-12">
-            <p className="text-white/70 mb-4">Quer uma solução personalizada para sua empresa?</p>
-            <a 
-              href="https://www.instagram.com/revecelebre/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-block bg-transparent border border-rose text-rose hover:bg-rose/10 font-medium px-6 py-3 rounded-md transition-colors"
-            >
-              Solicite uma proposta exclusiva
-            </a>
           </div>
         </div>
       </section>

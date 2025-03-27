@@ -1,5 +1,5 @@
 
-import { Instagram, MapPin, Mail } from 'lucide-react';
+import { Instagram, MapPin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -31,10 +31,6 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <MapPin size={18} className="text-rose" />
                 <span className="text-white/70">Marabá, Pará, Brasil</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Mail size={18} className="text-rose" />
-                <span className="text-white/70">contaparanegocios30@gmail.com</span>
               </div>
               <a 
                 href="https://www.instagram.com/revecelebre/" 
