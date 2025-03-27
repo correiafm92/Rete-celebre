@@ -12,39 +12,17 @@ interface ProductCardProps {
 }
 
 const ProductCard = ({ title, description, image, items, delay }: ProductCardProps) => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
   const [isHovered, setIsHovered] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   const { toast } = useToast();
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setTimeout(() => {
-            setIsVisible(true);
-          }, delay);
-        }
-      },
-      {
-        threshold: 0.1,
-      }
-    );
-
-    if (ref.current) {
-      observer.observe(ref.current);
-    }
-
-    return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current);
-      }
-    };
-  }, [delay]);
-
   const handleButtonClick = () => {
+    // Redirect to Instagram
+    window.open("https://www.instagram.com/revecelebre/", "_blank");
+    
     toast({
-      title: "Interesse registrado!",
+      title: "Redirecionando para o Instagram",
       description: `Em breve entraremos em contato sobre o produto: ${title}`,
     });
   };
@@ -52,9 +30,7 @@ const ProductCard = ({ title, description, image, items, delay }: ProductCardPro
   return (
     <div
       ref={ref}
-      className={`bg-navy-dark/50 backdrop-blur-sm rounded-lg overflow-hidden shadow-xl transition-all duration-700 transform ${
-        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
-      }`}
+      className="bg-navy-dark/50 backdrop-blur-sm rounded-lg overflow-hidden shadow-xl"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >

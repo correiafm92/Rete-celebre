@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { Menu, X, Instagram } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -37,10 +37,6 @@ const Navbar = () => {
             <a href="#inicio" className="text-white hover:text-rose transition-colors">Início</a>
             <a href="#beneficios" className="text-white hover:text-rose transition-colors">Benefícios</a>
             <a href="#produtos" className="text-white hover:text-rose transition-colors">Produtos</a>
-            <a href="https://www.instagram.com/revecelebre/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-rose transition-colors flex items-center gap-1">
-              <Instagram size={18} />
-              <span>Instagram</span>
-            </a>
           </div>
           
           {/* Mobile menu button */}
@@ -55,15 +51,11 @@ const Navbar = () => {
       
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden bg-navy-light/95 backdrop-blur-md animate-fade-in">
+        <div className="md:hidden bg-navy-light/95 backdrop-blur-md">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <a href="#inicio" className="text-white hover:text-rose py-2 border-b border-navy-dark/30" onClick={() => setIsOpen(false)}>Início</a>
             <a href="#beneficios" className="text-white hover:text-rose py-2 border-b border-navy-dark/30" onClick={() => setIsOpen(false)}>Benefícios</a>
             <a href="#produtos" className="text-white hover:text-rose py-2 border-b border-navy-dark/30" onClick={() => setIsOpen(false)}>Produtos</a>
-            <a href="https://www.instagram.com/revecelebre/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-rose py-2 flex items-center gap-2" onClick={() => setIsOpen(false)}>
-              <Instagram size={18} />
-              <span>Instagram</span>
-            </a>
           </div>
         </div>
       )}

@@ -36,51 +36,51 @@ const Index = () => {
       <section id="produtos" className="py-20 bg-navy">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Nossos Produtos</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Soluções Premium</h2>
             <p className="text-lg text-white/80 max-w-2xl mx-auto">
-              Kits exclusivos desenvolvidos para causar a melhor impressão aos seus clientes.
+              Kits sofisticados com acabamento de alto padrão, desenvolvidos para expressar valor e fortalecer conexões profissionais estratégicas.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <ProductCard 
-              title="Kit Premium Wine" 
-              description="Presente sofisticado com vinho selecionado e acessórios para uma experiência completa."
+              title="Kit Élégance Vin" 
+              description="Uma combinação sofisticada que transmite exclusividade e atenção aos detalhes, ideal para fortalecer relações com clientes VIP e parceiros estratégicos."
               image="https://i.postimg.cc/ZRksGjqG/High-contrast-image-of-a-wooden-box-with-a-ribbon-a-wine-bottle-and-a-notebook-inside-bathed-in-d.jpg"
               items={[
-                "Caixa de madeira personalizada",
-                "Garrafa de vinho premium selecionado",
-                "Caderno executivo de couro",
-                "Caneta executiva metálica",
-                "Embalagem com acabamento sofisticado"
+                "Caixa de madeira personalizada com acabamento premium",
+                "Garrafa de vinho cuidadosamente selecionada",
+                "Caderno executivo em couro legítimo",
+                "Caneta metálica de alta qualidade",
+                "Embalagem com detalhes exclusivos"
               ]}
               delay={100}
             />
             
             <ProductCard 
-              title="Kit Celebration" 
-              description="Um brinde ao sucesso da sua parceria com um kit que combina elegância e praticidade."
+              title="Kit Champagne Prestige" 
+              description="Uma experiência sensorial completa que celebra conquistas e fortalece alianças comerciais importantes com elegância e refinamento."
               image="https://i.postimg.cc/DzGBPscB/A-wooden-box-with-a-ribbon-champagne-and-a-notebook-inside-sits-on-an-office-desk-illuminated-by.jpg"
               items={[
-                "Caixa de madeira personalizada",
-                "Champagne premium selecionado",
-                "Caderno executivo de couro",
-                "Caneta executiva metálica",
-                "Cartão personalizado com sua mensagem"
+                "Caixa de madeira personalizada com acabamento superior",
+                "Champagne premium de marca reconhecida",
+                "Caderno executivo em couro com detalhes metálicos",
+                "Caneta executiva premium",
+                "Cartão personalizado com sua mensagem corporativa"
               ]}
               delay={300}
             />
           </div>
           
           <div className="text-center mt-12">
-            <p className="text-white/70 mb-4">Não encontrou o que procura?</p>
+            <p className="text-white/70 mb-4">Quer uma solução personalizada para sua empresa?</p>
             <a 
               href="https://www.instagram.com/revecelebre/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-transparent border border-rose text-rose hover:bg-rose/10 font-medium px-6 py-3 rounded-md transition-colors"
             >
-              Entre em contato para kits personalizados
+              Solicite uma proposta exclusiva
             </a>
           </div>
         </div>

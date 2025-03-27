@@ -3,11 +3,7 @@ import { useState, useEffect } from 'react';
 import { ChevronDown } from 'lucide-react';
 
 const Hero = () => {
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    setIsVisible(true);
-  }, []);
+  const [isVisible, setIsVisible] = useState(true);
 
   const scrollToProducts = () => {
     const productsSection = document.getElementById('produtos');
@@ -21,7 +17,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0 bg-gradient-to-b from-navy-dark/60 to-navy"></div>
       
       <div 
-        className={`container mx-auto px-4 md:px-6 pt-24 pb-16 relative z-10 transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+        className="container mx-auto px-4 md:px-6 pt-24 pb-16 relative z-10"
       >
         <div className="flex flex-col items-center justify-center text-center space-y-8 md:space-y-12">
           <img 
@@ -31,11 +27,11 @@ const Hero = () => {
           />
           
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white max-w-4xl mx-auto leading-tight">
-            <span className="text-rose-light">Impressione</span> seus clientes com presentes <span className="text-rose-light">exclusivos</span>
+            <span className="text-rose-light">Transforme</span> relacionamentos comerciais em <span className="text-rose-light">parcerias duradouras</span>
           </h1>
           
           <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
-            Kits corporativos premium que fortalecem relacionamentos e elevam a percepção da sua marca. Uma experiência sofisticada que seus clientes jamais esquecerão.
+            Nossos kits corporativos premium comunicam valor, reconhecimento e exclusividade. Crie uma experiência memorável que eleva sua marca e fortalece conexões estratégicas com seus principais stakeholders.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mt-6">
@@ -57,7 +53,7 @@ const Hero = () => {
         </div>
       </div>
       
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
         <ChevronDown size={36} className="text-white opacity-70" />
       </div>
     </section>

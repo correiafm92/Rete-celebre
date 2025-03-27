@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
 
 @tailwind base;
@@ -91,8 +90,8 @@
     @apply border-border;
   }
 
-  body {
-    @apply bg-navy text-white font-montserrat;
+  html, body {
+    @apply bg-navy text-white font-montserrat overflow-x-hidden;
   }
 
   h1, h2, h3, h4, h5, h6 {

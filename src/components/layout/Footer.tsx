@@ -1,20 +1,16 @@
 
-import { Instagram, MapPin, Mail, Phone } from 'lucide-react';
+import { Instagram, MapPin, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
     <footer className="bg-navy-dark text-white">
       <div className="container mx-auto px-4 md:px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Logo and Description */}
+          {/* Description */}
           <div className="flex flex-col">
-            <img
-              src="https://i.postimg.cc/QC2bRdSj/486555759-637211109095046-4812668224269979376-n-removebg-preview.png"
-              alt="Rêve Célébré"
-              className="h-16 mb-4"
-            />
+            <h3 className="text-lg font-semibold mb-4 text-rose-light">Rêve Célébré</h3>
             <p className="text-white/70 max-w-md">
-              Transformamos momentos em experiências memoráveis através dos nossos kits de presentes corporativos exclusivos.
+              Transformamos momentos corporativos em experiências memoráveis através de presentes exclusivos que comunicam valor e fortalecem relacionamentos estratégicos.
             </p>
           </div>
 
@@ -38,11 +34,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={18} className="text-rose" />
-                <span className="text-white/70">contato@revecelebre.com.br</span>
-              </div>
-              <div className="flex items-center space-x-3">
-                <Phone size={18} className="text-rose" />
-                <span className="text-white/70">(94) 99999-9999</span>
+                <span className="text-white/70">contaparanegocios30@gmail.com</span>
               </div>
               <a 
                 href="https://www.instagram.com/revecelebre/" 
