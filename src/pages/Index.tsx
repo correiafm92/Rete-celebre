@@ -48,10 +48,10 @@ const Index = () => {
               description="Uma combinação sofisticada que transmite exclusividade e atenção aos detalhes, ideal para fortalecer relações com clientes VIP e parceiros estratégicos."
               image="https://i.postimg.cc/ZRksGjqG/High-contrast-image-of-a-wooden-box-with-a-ribbon-a-wine-bottle-and-a-notebook-inside-bathed-in-d.jpg"
               items={[
-                "Caixa de madeira personalizada com acabamento premium",
+                "Caixa de madeira com acabamento premium",
                 "Garrafa de vinho cuidadosamente selecionada",
                 "Caderno Office",
-                "Caneta metálica de alta qualidade"
+                "Caneta office"
               ]}
               delay={100}
             />
@@ -61,7 +61,7 @@ const Index = () => {
               description="Uma experiência sensorial completa que celebra conquistas e fortalece alianças comerciais importantes com elegância e refinamento."
               image="https://i.postimg.cc/DzGBPscB/A-wooden-box-with-a-ribbon-champagne-and-a-notebook-inside-sits-on-an-office-desk-illuminated-by.jpg"
               items={[
-                "Caixa de madeira personalizada com acabamento superior",
+                "Caixa de madeira com acabamento premium",
                 "Champagne",
                 "Caderno Office",
                 "Caneta Office"

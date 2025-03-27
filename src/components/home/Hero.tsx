@@ -27,7 +27,7 @@ const Hero = () => {
           />
           
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white max-w-4xl mx-auto leading-tight">
-            <span className="text-rose-light">Transforme</span> relacionamentos comerciais em <span className="text-rose-light">parcerias duradouras</span>
+            Transforme relacionamentos comerciais em parcerias duradouras
           </h1>
           
           <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
