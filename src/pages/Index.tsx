@@ -3,6 +3,8 @@ import { useState, useEffect } from 'react';
 import Navbar from '@/components/layout/Navbar';
 import Hero from '@/components/home/Hero';
 import Benefits from '@/components/home/Benefits';
+import AboutUs from '@/components/home/AboutUs';
+import FAQ from '@/components/home/FAQ';
 import ProductCard from '@/components/products/ProductCard';
 import Footer from '@/components/layout/Footer';
 import { ArrowUp } from 'lucide-react';
@@ -31,6 +33,7 @@ const Index = () => {
       <Navbar />
       <Hero />
       <Benefits />
+      <AboutUs />
       
       {/* Products Section */}
       <section id="produtos" className="py-20 bg-navy">
@@ -72,6 +75,7 @@ const Index = () => {
         </div>
       </section>
       
+      <FAQ />
       <Footer />
       
       {/* Scroll to top button */}

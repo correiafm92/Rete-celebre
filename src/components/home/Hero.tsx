@@ -27,11 +27,11 @@ const Hero = () => {
           />
           
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white max-w-4xl mx-auto leading-tight">
-            Transforme relacionamentos comerciais em parcerias duradouras
+            Fortaleça Seu Relacionamento com Clientes e parceiros Através de Presentes Estratégicos
           </h1>
           
           <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
-            Nossos kits corporativos premium comunicam valor, reconhecimento e exclusividade. Crie uma experiência memorável que eleva sua marca e fortalece conexões estratégicas com seus principais stakeholders.
+            Clientes e parcerias fiéis não surgem por acaso são cultivados. Um presente bem escolhido não é apenas um gesto de cortesia, mas uma estratégia poderosa para fortalecer conexões, gerar reconhecimento e manter sua marca na memória dos clientes.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mt-6">

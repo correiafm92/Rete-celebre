@@ -19,18 +19,20 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 text-rose-light">Links Rápidos</h3>
             <div className="space-y-2">
               <a href="#inicio" className="text-white/70 hover:text-rose transition-colors">Início</a>
+              <a href="#sobre" className="block text-white/70 hover:text-rose transition-colors">Sobre Nós</a>
               <a href="#beneficios" className="block text-white/70 hover:text-rose transition-colors">Benefícios</a>
               <a href="#produtos" className="block text-white/70 hover:text-rose transition-colors">Produtos</a>
+              <a href="#faq" className="block text-white/70 hover:text-rose transition-colors">Perguntas Frequentes</a>
             </div>
           </div>
 
           {/* Contact Info */}
           <div className="flex flex-col">
-            <h3 className="text-lg font-semibold mb-4 text-rose-light">Contato</h3>
+            <h3 className="text-lg font-semibold mb-4 text-rose-light">Área de contato</h3>
             <div className="flex flex-col space-y-3">
               <div className="flex items-center space-x-3">
                 <MapPin size={18} className="text-rose" />
-                <span className="text-white/70">Marabá, Pará, Brasil</span>
+                <span className="text-white/70">Marabá, Pará</span>
               </div>
               <a 
                 href="https://www.instagram.com/revecelebre/" 
