@@ -29,17 +29,17 @@ const Index = () => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-navy text-white">
+    <div className="flex flex-col min-h-screen bg-darkgreen text-white">
       <Navbar />
       <Hero />
       <Benefits />
       <AboutUs />
       
       {/* Products Section */}
-      <section id="produtos" className="py-20 bg-navy">
+      <section id="produtos" className="py-20 bg-darkgreen">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Soluções Premium</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Soluções Premium</h2>
             <p className="text-lg text-white/80 max-w-2xl mx-auto">
               Kits sofisticados com acabamento de alto padrão, desenvolvidos para expressar valor e fortalecer conexões profissionais estratégicas.
             </p>
@@ -81,7 +81,7 @@ const Index = () => {
       {/* Scroll to top button */}
       <button
         onClick={scrollToTop}
-        className={`fixed right-6 bottom-6 bg-rose text-navy p-3 rounded-full shadow-lg transition-all duration-300 hover:bg-rose-dark ${
+        className={`fixed right-6 bottom-6 bg-buttongreen text-white p-3 rounded-full shadow-lg transition-all duration-300 hover:bg-buttongreen/80 ${
           showScrollToTop ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'
         }`}
         aria-label="Voltar ao topo"

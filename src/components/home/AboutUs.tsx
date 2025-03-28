@@ -7,7 +7,7 @@ const AboutUs = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-center md:justify-between mb-8">
-            <h2 className="text-3xl md:text-4xl font-bold text-center md:text-left">Sobre a Rêve Célébrer</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-center md:text-left text-white">Sobre a Rêve Célébrer</h2>
             <img 
               src="https://i.postimg.cc/yY52sHZW/486222471-1390265878772894-944744138674179901-n-removebg-preview.png" 
               alt="Rêve Célébré" 
@@ -24,37 +24,37 @@ const AboutUs = () => {
           </p>
           
           <div className="bg-darkgreen rounded-lg p-8 border border-white/10">
-            <h3 className="text-2xl font-bold mb-6 text-center">Por que Escolher a Rêve Célébrer?</h3>
+            <h3 className="text-2xl font-bold mb-6 text-center text-white">Por que Escolher a Rêve Célébrer?</h3>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="flex items-start">
-                <span className="text-rose mr-3 text-xl font-bold">✔</span>
+                <span className="text-white mr-3 text-xl font-bold">✔</span>
                 <div>
-                  <h4 className="font-bold mb-1">Sofisticação</h4>
+                  <h4 className="font-bold mb-1 text-white">Sofisticação</h4>
                   <p className="text-white/80">Presentes cuidadosamente selecionados para impressionar e encantar.</p>
                 </div>
               </div>
               
               <div className="flex items-start">
-                <span className="text-rose mr-3 text-xl font-bold">✔</span>
+                <span className="text-white mr-3 text-xl font-bold">✔</span>
                 <div>
-                  <h4 className="font-bold mb-1">Posicionamento de Marca</h4>
+                  <h4 className="font-bold mb-1 text-white">Posicionamento de Marca</h4>
                   <p className="text-white/80">Construa uma imagem premium na mente dos seus clientes e parceiros.</p>
                 </div>
               </div>
               
               <div className="flex items-start">
-                <span className="text-rose mr-3 text-xl font-bold">✔</span>
+                <span className="text-white mr-3 text-xl font-bold">✔</span>
                 <div>
-                  <h4 className="font-bold mb-1">Fidelização Estratégica</h4>
+                  <h4 className="font-bold mb-1 text-white">Fidelização Estratégica</h4>
                   <p className="text-white/80">Transforme simples interações em relacionamentos duradouros.</p>
                 </div>
               </div>
               
               <div className="flex items-start">
-                <span className="text-rose mr-3 text-xl font-bold">✔</span>
+                <span className="text-white mr-3 text-xl font-bold">✔</span>
                 <div>
-                  <h4 className="font-bold mb-1">Entrega Ágil</h4>
+                  <h4 className="font-bold mb-1 text-white">Entrega Ágil</h4>
                   <p className="text-white/80">Garantimos um processo rápido e eficiente, sem complicações.</p>
                 </div>
               </div>

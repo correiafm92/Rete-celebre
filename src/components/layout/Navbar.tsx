@@ -34,14 +34,14 @@ const Navbar = () => {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#inicio" className="text-white hover:text-rose transition-colors">Início</a>
-            <a href="#beneficios" className="text-white hover:text-rose transition-colors">Benefícios</a>
-            <a href="#produtos" className="text-white hover:text-rose transition-colors">Produtos</a>
+            <a href="#inicio" className="text-white hover:text-white/70 transition-colors">Início</a>
+            <a href="#beneficios" className="text-white hover:text-white/70 transition-colors">Benefícios</a>
+            <a href="#produtos" className="text-white hover:text-white/70 transition-colors">Produtos</a>
           </div>
           
           {/* Mobile menu button */}
           <button 
-            className="md:hidden text-white hover:text-rose-light transition-colors"
+            className="md:hidden text-white hover:text-white/70 transition-colors"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -53,9 +53,9 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-darkgreen-light/95 backdrop-blur-md">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
-            <a href="#inicio" className="text-white hover:text-rose py-2 border-b border-darkgreen-dark/30" onClick={() => setIsOpen(false)}>Início</a>
-            <a href="#beneficios" className="text-white hover:text-rose py-2 border-b border-darkgreen-dark/30" onClick={() => setIsOpen(false)}>Benefícios</a>
-            <a href="#produtos" className="text-white hover:text-rose py-2 border-b border-darkgreen-dark/30" onClick={() => setIsOpen(false)}>Produtos</a>
+            <a href="#inicio" className="text-white hover:text-white/70 py-2 border-b border-darkgreen-dark/30" onClick={() => setIsOpen(false)}>Início</a>
+            <a href="#beneficios" className="text-white hover:text-white/70 py-2 border-b border-darkgreen-dark/30" onClick={() => setIsOpen(false)}>Benefícios</a>
+            <a href="#produtos" className="text-white hover:text-white/70 py-2 border-b border-darkgreen-dark/30" onClick={() => setIsOpen(false)}>Produtos</a>
           </div>
         </div>
       )}

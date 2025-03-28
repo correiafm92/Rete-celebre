@@ -37,12 +37,12 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 mt-6">
             <button 
               onClick={scrollToProducts}
-              className="bg-rose text-darkgreen font-medium px-8 py-3 rounded-md hover:bg-rose-dark transition-colors"
+              className="bg-buttongreen text-white font-medium px-8 py-3 rounded-md hover:bg-buttongreen/80 transition-colors"
             >
               Conheça nossos produtos
             </button>
             <a 
-              href="https://www.instagram.com/revecelebre/" 
+              href="https://www.instagram.com/revecelebrer/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="border border-white/60 text-white px-8 py-3 rounded-md hover:bg-white/10 transition-colors"

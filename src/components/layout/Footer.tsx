@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Description */}
           <div className="flex flex-col">
-            <h3 className="text-lg font-semibold mb-4 text-rose-light">Rêve Célébré</h3>
+            <h3 className="text-lg font-semibold mb-4 text-white">Rêve Célébré</h3>
             <p className="text-white/70 max-w-md">
               Transformamos momentos corporativos em experiências memoráveis através de presentes exclusivos que comunicam valor e fortalecem relacionamentos estratégicos.
             </p>
@@ -16,32 +16,32 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="flex flex-col">
-            <h3 className="text-lg font-semibold mb-4 text-rose-light">Links Rápidos</h3>
+            <h3 className="text-lg font-semibold mb-4 text-white">Links Rápidos</h3>
             <div className="space-y-2">
-              <a href="#inicio" className="text-white/70 hover:text-rose transition-colors">Início</a>
-              <a href="#sobre" className="block text-white/70 hover:text-rose transition-colors">Sobre Nós</a>
-              <a href="#beneficios" className="block text-white/70 hover:text-rose transition-colors">Benefícios</a>
-              <a href="#produtos" className="block text-white/70 hover:text-rose transition-colors">Produtos</a>
-              <a href="#faq" className="block text-white/70 hover:text-rose transition-colors">Perguntas Frequentes</a>
+              <a href="#inicio" className="text-white/70 hover:text-white transition-colors">Início</a>
+              <a href="#sobre" className="block text-white/70 hover:text-white transition-colors">Sobre Nós</a>
+              <a href="#beneficios" className="block text-white/70 hover:text-white transition-colors">Benefícios</a>
+              <a href="#produtos" className="block text-white/70 hover:text-white transition-colors">Produtos</a>
+              <a href="#faq" className="block text-white/70 hover:text-white transition-colors">Perguntas Frequentes</a>
             </div>
           </div>
 
           {/* Contact Info */}
           <div className="flex flex-col">
-            <h3 className="text-lg font-semibold mb-4 text-rose-light">Área de contato</h3>
+            <h3 className="text-lg font-semibold mb-4 text-white">Área de contato</h3>
             <div className="flex flex-col space-y-3">
               <div className="flex items-center space-x-3">
-                <MapPin size={18} className="text-rose" />
+                <MapPin size={18} className="text-white" />
                 <span className="text-white/70">Marabá, Pará</span>
               </div>
               <a 
-                href="https://www.instagram.com/revecelebre/" 
+                href="https://www.instagram.com/revecelebrer/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex items-center space-x-3 text-white/70 hover:text-rose transition-colors"
+                className="flex items-center space-x-3 text-white/70 hover:text-white transition-colors"
               >
-                <Instagram size={18} className="text-rose" />
-                <span>@revecelebre</span>
+                <Instagram size={18} className="text-white" />
+                <span>@revecelebrer</span>
               </a>
             </div>
           </div>

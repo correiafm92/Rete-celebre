@@ -45,10 +45,10 @@ const BenefitItem = ({ icon, title, description, delay }: BenefitProps) => {
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
       }`}
     >
-      <div className="bg-navy-light p-4 rounded-full mb-4 text-rose">
+      <div className="bg-darkgreen p-4 rounded-full mb-4 text-white">
         {icon}
       </div>
-      <h3 className="text-xl font-semibold mb-2">{title}</h3>
+      <h3 className="text-xl font-semibold mb-2 text-white">{title}</h3>
       <p className="text-white/80">{description}</p>
     </div>
   );
@@ -56,10 +56,10 @@ const BenefitItem = ({ icon, title, description, delay }: BenefitProps) => {
 
 const Benefits = () => {
   return (
-    <section id="beneficios" className="py-20 bg-navy-light">
+    <section id="beneficios" className="py-20 bg-darkgreen-light">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Por que escolher nossos kits?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Por que escolher nossos kits?</h2>
           <p className="text-lg text-white/80 max-w-2xl mx-auto">
             Presentes corporativos que fazem a diferença na consolidação do relacionamento com seus clientes.
           </p>

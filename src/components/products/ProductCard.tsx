@@ -19,7 +19,7 @@ const ProductCard = ({ title, description, image, items, delay }: ProductCardPro
 
   const handleButtonClick = () => {
     // Redirect to Instagram
-    window.open("https://www.instagram.com/revecelebre/", "_blank");
+    window.open("https://www.instagram.com/revecelebrer/", "_blank");
     
     toast({
       title: "Redirecionando para o Instagram",
@@ -30,7 +30,7 @@ const ProductCard = ({ title, description, image, items, delay }: ProductCardPro
   return (
     <div
       ref={ref}
-      className="bg-navy-dark/50 backdrop-blur-sm rounded-lg overflow-hidden shadow-xl"
+      className="bg-darkgreen-dark/50 backdrop-blur-sm rounded-lg overflow-hidden shadow-xl"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -40,11 +40,11 @@ const ProductCard = ({ title, description, image, items, delay }: ProductCardPro
           alt={title}
           className={`w-full h-full object-cover transition-transform duration-700 ${isHovered ? 'scale-110' : 'scale-100'}`}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-navy-dark to-transparent opacity-80"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-darkgreen-dark to-transparent opacity-80"></div>
       </div>
 
       <div className="p-6">
-        <h3 className="text-2xl font-bold mb-3 text-rose-light">{title}</h3>
+        <h3 className="text-2xl font-bold mb-3 text-white">{title}</h3>
         <p className="text-white/90 mb-4">{description}</p>
 
         <div className="mb-6">
@@ -52,7 +52,7 @@ const ProductCard = ({ title, description, image, items, delay }: ProductCardPro
           <ul className="space-y-1">
             {items.map((item, index) => (
               <li key={index} className="flex items-start">
-                <ChevronRight size={16} className="text-rose-light mr-1 mt-1 flex-shrink-0" />
+                <ChevronRight size={16} className="text-white mr-1 mt-1 flex-shrink-0" />
                 <span className="text-white/80">{item}</span>
               </li>
             ))}
@@ -61,7 +61,7 @@ const ProductCard = ({ title, description, image, items, delay }: ProductCardPro
 
         <button
           onClick={handleButtonClick}
-          className="w-full bg-rose hover:bg-rose-dark text-navy-dark font-medium py-3 px-4 rounded-md transition-colors"
+          className="w-full bg-buttongreen hover:bg-buttongreen/80 text-white font-medium py-3 px-4 rounded-md transition-colors"
         >
           Adquirir
         </button>

@@ -78,7 +78,8 @@ export default {
 					DEFAULT: '#0A3B25',
 					light: '#0F4E32',
 					dark: '#072A1B'
-				}
+				},
+				buttongreen: '#486623'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
