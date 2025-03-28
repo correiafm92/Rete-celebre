@@ -9,17 +9,18 @@ interface ProductCardProps {
   image: string;
   items: string[];
   delay: number;
+  price?: string;
 }
 
-const ProductCard = ({ title, description, image, items, delay }: ProductCardProps) => {
+const ProductCard = ({ title, description, image, items, delay, price }: ProductCardProps) => {
   const [isVisible, setIsVisible] = useState(true);
   const [isHovered, setIsHovered] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   const { toast } = useToast();
 
   const handleButtonClick = () => {
-    // Redirect to Instagram Direct
-    window.open("https://www.instagram.com/direct/t/17846052717436451/#", "_blank");
+    // Redirect to Instagram profile
+    window.open("https://www.instagram.com/revecelebrer/", "_blank");
     
     toast({
       title: "Redirecionando para o Instagram",
@@ -44,7 +45,14 @@ const ProductCard = ({ title, description, image, items, delay }: ProductCardPro
       </div>
 
       <div className="p-6">
-        <h3 className="text-2xl font-bold mb-3 text-white">{title}</h3>
+        <div className="flex justify-between items-center mb-3">
+          <h3 className="text-2xl font-bold text-white">{title}</h3>
+          {price && (
+            <span className="text-xl font-bold text-white bg-buttongreen px-3 py-1 rounded-md">
+              {price}
+            </span>
+          )}
+        </div>
         <p className="text-white/90 mb-4">{description}</p>
 
         <div className="mb-6">

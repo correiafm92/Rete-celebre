@@ -53,6 +53,7 @@ const Index = () => {
                 "Garrafa de vinho cuidadosamente selecionada",
                 "Nescafé"
               ]}
+              price="R$ 168,90"
               delay={100}
             />
             
@@ -65,6 +66,7 @@ const Index = () => {
                 "Champanhe",
                 "Nescafé"
               ]}
+              price="R$ 189,90"
               delay={300}
             />
           </div>

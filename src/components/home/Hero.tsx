@@ -23,7 +23,7 @@ const Hero = () => {
           <img 
             src="https://i.postimg.cc/yY52sHZW/486222471-1390265878772894-944744138674179901-n-removebg-preview.png" 
             alt="Rêve Célébré" 
-            className="h-20 md:h-32 lg:h-40"
+            className="h-24 md:h-36 lg:h-48"
           />
           
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white max-w-4xl mx-auto leading-tight">
