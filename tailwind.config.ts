@@ -72,7 +72,13 @@ export default {
           			DEFAULT: '#FFD8C9',
           			light: '#FFE9E0',
           			dark: '#FFC7B0'
-        		}
+        		},
+				// New dark green color from the image
+				darkgreen: {
+					DEFAULT: '#0A3B25',
+					light: '#0F4E32',
+					dark: '#072A1B'
+				}
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
