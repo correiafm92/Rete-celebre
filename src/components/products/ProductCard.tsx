@@ -18,8 +18,8 @@ const ProductCard = ({ title, description, image, items, delay }: ProductCardPro
   const { toast } = useToast();
 
   const handleButtonClick = () => {
-    // Redirect to Instagram
-    window.open("https://www.instagram.com/revecelebrer/", "_blank");
+    // Redirect to Instagram Direct
+    window.open("https://www.instagram.com/direct/t/17846052717436451/#", "_blank");
     
     toast({
       title: "Redirecionando para o Instagram",

@@ -21,8 +21,8 @@ const FAQ = () => {
                 <ol className="list-decimal list-inside space-y-3">
                   <li>Escolha o presente ideal em nosso catálogo.</li>
                   <li>Clique no botão "Adquirir".</li>
-                  <li>Preencha um breve formulário com os detalhes do pedido.</li>
-                  <li>Realize o pagamento via Pix.</li>
+                  <li>Mande uma mensagem em nosso perfil no Instagram.</li>
+                  <li>Nossa equipe entrará em contato o mais rápido possível.</li>
                 </ol>
               </AccordionContent>
             </AccordionItem>

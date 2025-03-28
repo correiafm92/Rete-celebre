@@ -31,7 +31,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
-            Clientes e parcerias fiéis não surgem por acaso são cultivados. Um presente bem escolhido não é apenas um gesto de cortesia, mas uma estratégia poderosa para fortalecer conexões, gerar reconhecimento e manter sua marca na memória dos clientes.
+            Clientes e parcerias fiéis não surgem por acaso, são cultivados. Um presente bem escolhido não é apenas um gesto de cortesia, mas uma estratégia poderosa para fortalecer conexões, gerar reconhecimento e manter sua marca na memória dos clientes.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mt-6">

@@ -2,7 +2,6 @@
 import { useState, useEffect } from 'react';
 import Navbar from '@/components/layout/Navbar';
 import Hero from '@/components/home/Hero';
-import Benefits from '@/components/home/Benefits';
 import AboutUs from '@/components/home/AboutUs';
 import FAQ from '@/components/home/FAQ';
 import ProductCard from '@/components/products/ProductCard';
@@ -32,7 +31,6 @@ const Index = () => {
     <div className="flex flex-col min-h-screen bg-darkgreen text-white">
       <Navbar />
       <Hero />
-      <Benefits />
       <AboutUs />
       
       {/* Products Section */}
@@ -49,12 +47,11 @@ const Index = () => {
             <ProductCard 
               title="Kit Élégance Vin" 
               description="Uma combinação sofisticada que transmite exclusividade e atenção aos detalhes, ideal para fortalecer relações com clientes VIP e parceiros estratégicos."
-              image="https://i.postimg.cc/ZRksGjqG/High-contrast-image-of-a-wooden-box-with-a-ribbon-a-wine-bottle-and-a-notebook-inside-bathed-in-d.jpg"
+              image="https://i.postimg.cc/SQBYVtP0/A-high-angle-perspective-photograph-of-a-rectangular-brown-wooden-box-with-a-ribbon-thin-leaves-a.jpg"
               items={[
                 "Caixa de madeira com acabamento premium",
                 "Garrafa de vinho cuidadosamente selecionada",
-                "Caderno Office",
-                "Caneta office"
+                "Nescafé"
               ]}
               delay={100}
             />
@@ -62,12 +59,11 @@ const Index = () => {
             <ProductCard 
               title="Kit Champagne Prestige" 
               description="Uma experiência sensorial completa que celebra conquistas e fortalece alianças comerciais importantes com elegância e refinamento."
-              image="https://i.postimg.cc/DzGBPscB/A-wooden-box-with-a-ribbon-champagne-and-a-notebook-inside-sits-on-an-office-desk-illuminated-by.jpg"
+              image="https://i.postimg.cc/QxZZfpkY/Mystical-and-ethereal-scene-A-brown-wooden-box-with-a-ribbon-thin-leaves-a-Celebre-champagne-bottl.jpg"
               items={[
                 "Caixa de madeira com acabamento premium",
-                "Champagne",
-                "Caderno Office",
-                "Caneta Office"
+                "Champanhe",
+                "Nescafé"
               ]}
               delay={300}
             />
