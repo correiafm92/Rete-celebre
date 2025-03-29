@@ -108,3 +108,12 @@
 .hover-scale {
   @apply transition-transform duration-200 hover:scale-105;
 }
+
+/* Price gradient styles */
+.text-gradient-green {
+  @apply bg-gradient-to-r from-green-400 via-buttongreen to-emerald-300 bg-clip-text text-transparent;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}

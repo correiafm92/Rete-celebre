@@ -48,7 +48,7 @@ const ProductCard = ({ title, description, image, items, delay, price }: Product
         <div className="flex justify-between items-center mb-3">
           <h3 className="text-2xl font-bold text-white">{title}</h3>
           {price && (
-            <span className="text-xl font-bold text-white bg-buttongreen px-3 py-1 rounded-md">
+            <span className="text-xl font-bold text-gradient-green transform -rotate-2 px-2 py-0.5">
               {price}
             </span>
           )}
