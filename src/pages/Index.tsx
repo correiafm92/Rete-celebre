@@ -69,7 +69,7 @@ const Index = () => {
               items={[
                 "Caixa de madeira com acabamento premium",
                 "Garrafa de vinho cuidadosamente selecionada",
-                "Nescafé"
+                "Café premium"
               ]}
               price="R$ 168,90"
               delay={100}
@@ -82,7 +82,7 @@ const Index = () => {
               items={[
                 "Caixa de madeira com acabamento premium",
                 "Champanhe",
-                "Nescafé"
+                "Café premium"
               ]}
               price="R$ 189,90"
               delay={300}

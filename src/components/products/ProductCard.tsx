@@ -1,7 +1,6 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { ChevronRight } from 'lucide-react';
-import { useToast } from '@/hooks/use-toast';
 
 interface ProductCardProps {
   title: string;
@@ -16,7 +15,6 @@ const ProductCard = ({ title, description, image, items, delay, price }: Product
   const [isVisible, setIsVisible] = useState(true);
   const [isHovered, setIsHovered] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
-  const { toast } = useToast();
 
   useEffect(() => {
     // Entry animation delay based on prop
@@ -27,13 +25,8 @@ const ProductCard = ({ title, description, image, items, delay, price }: Product
   }, [delay]);
 
   const handleButtonClick = () => {
-    // Redirect to Instagram profile
+    // Redirect to Instagram profile without showing toast
     window.open("https://www.instagram.com/revecelebrer/", "_blank");
-    
-    toast({
-      title: "Redirecionando para o Instagram",
-      description: `Em breve entraremos em contato sobre o produto: ${title}`,
-    });
   };
 
   return (
@@ -58,7 +51,7 @@ const ProductCard = ({ title, description, image, items, delay, price }: Product
         <div className="flex justify-between items-center mb-3">
           <h3 className="text-2xl font-bold text-white">{title}</h3>
           {price && (
-            <span className="text-xl font-bold text-white bg-buttongreen/70 px-3 py-1 rounded-md font-playfair">
+            <span className="text-xl font-bold text-white font-playfair">
               {price}
             </span>
           )}

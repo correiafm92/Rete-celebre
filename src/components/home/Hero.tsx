@@ -1,6 +1,5 @@
 
 import { useState, useEffect } from 'react';
-import { ChevronDown } from 'lucide-react';
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -69,12 +68,6 @@ const Hero = () => {
             </a>
           </div>
         </div>
-      </div>
-      
-      <div className={`absolute bottom-8 left-1/2 transform -translate-x-1/2 transition-all duration-1000 delay-1000 animate-bounce ${
-        isVisible ? 'opacity-100' : 'opacity-0'
-      }`}>
-        <ChevronDown size={36} className="text-white opacity-70" />
       </div>
     </section>
   );
