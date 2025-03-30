@@ -65,7 +65,7 @@ const Index = () => {
             <ProductCard 
               title="Kit Élégance Vin" 
               description="Uma combinação sofisticada que transmite exclusividade e atenção aos detalhes, ideal para fortalecer relações com clientes VIP e parceiros estratégicos."
-              image="https://i.postimg.cc/SQBYVtP0/A-high-angle-perspective-photograph-of-a-rectangular-brown-wooden-box-with-a-ribbon-thin-leaves-a.jpg"
+              image="https://i.postimg.cc/g2x0WmBG/A-detailed-close-up-shot-showcasing-a-wide-dark-brown-wooden-box-with-a-ribbon-artificial-plant-wi.jpg"
               items={[
                 "Caixa de madeira com acabamento premium",
                 "Garrafa de vinho cuidadosamente selecionada",
@@ -78,7 +78,7 @@ const Index = () => {
             <ProductCard 
               title="Kit Champagne Prestige" 
               description="Uma experiência sensorial completa que celebra conquistas e fortalece alianças comerciais importantes com elegância e refinamento."
-              image="https://i.postimg.cc/QxZZfpkY/Mystical-and-ethereal-scene-A-brown-wooden-box-with-a-ribbon-thin-leaves-a-Celebre-champagne-bottl.jpg"
+              image="https://i.postimg.cc/CKPTLqZt/A-tight-close-up-shot-reveals-a-wide-dark-brown-wooden-box-with-a-ribbon-artificial-plant-champagn.jpg"
               items={[
                 "Caixa de madeira com acabamento premium",
                 "Champanhe",
